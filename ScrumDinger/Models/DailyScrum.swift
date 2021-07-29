@@ -26,10 +26,11 @@ struct DailyScrum: Identifiable {
 extension DailyScrum {
     static var data: [DailyScrum] {
         [
-            DailyScrum(title: "Design", attendees: ["Cathy", "Michael"], lengthInMinutes: 10, color: .yellow),
-            DailyScrum(title: "App Dev", attendees: ["Katie", "Seed", "Paul"], lengthInMinutes: 5, color: .green),
-            DailyScrum(title: "Web Dev", attendees: ["Chella", "John", "Ivan", "Leonid"], lengthInMinutes: 1, color: .orange),
-            DailyScrum(title: "DevOps", attendees: ["Bob"], lengthInMinutes: 7, color: .red)
+            DailyScrum(title: "Design", attendees: ["Cathy", "Michael", "Juhana"], lengthInMinutes: 10, color: .yellow),
+            DailyScrum(title: "App Dev", attendees: ["Katie", "Seed", "Paul", "Jim"], lengthInMinutes: 5, color: .green),
+            DailyScrum(title: "Web Dev", attendees: ["Chella", "John", "Ivan", "Leonid"], lengthInMinutes: 3, color: .orange),
+            DailyScrum(title: "DevOps", attendees: ["Bob", "Milania", "Chan", "Rahim"], lengthInMinutes: 7, color: .red),
+            DailyScrum(title: "Manager", attendees: ["Steeve", "Gilbert", "Usama"], lengthInMinutes: 15, color: .gray)
         ]
     }
 }
