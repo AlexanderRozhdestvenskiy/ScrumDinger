@@ -66,13 +66,20 @@
 			children = (
 				8947236126ACC37000510952 /* ScrumsView.swift */,
 				89F09C4C26ACB384004B6F0D /* MeetingView.swift */,
-				89B8794E26B2A7A100A9505A /* MeetingFooterView.swift */,
-				8947235F26ACBF7900510952 /* CardView.swift */,
 				8947236326ACCBCA00510952 /* DetailView.swift */,
-				89B8794A26B29FA700A9505A /* MeetingHeaderView.swift */,
 				8947236526ACD4E300510952 /* EditView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		89C6024026B2BD750008ECBA /* SubView */ = {
+			isa = PBXGroup;
+			children = (
+				8947235F26ACBF7900510952 /* CardView.swift */,
+				89B8794A26B29FA700A9505A /* MeetingHeaderView.swift */,
+				89B8794E26B2A7A100A9505A /* MeetingFooterView.swift */,
+			);
+			path = SubView;
 			sourceTree = "<group>";
 		};
 		89F09C3E26ACB383004B6F0D = {
@@ -97,6 +104,7 @@
 				89F09C4A26ACB384004B6F0D /* ScrumDingerApp.swift */,
 				8947235E26ACBCA900510952 /* Models */,
 				8947236726ACDC9600510952 /* View */,
+				89C6024026B2BD750008ECBA /* SubView */,
 				89F09C4E26ACB385004B6F0D /* Assets.xcassets */,
 				89F09C5326ACB385004B6F0D /* Info.plist */,
 				89F09C5026ACB385004B6F0D /* Preview Content */,
@@ -317,7 +325,7 @@
 		89F09C5726ACB385004B6F0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ScrumDinger/Preview Content\"";
@@ -339,7 +347,7 @@
 		89F09C5826ACB385004B6F0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ScrumDinger/Preview Content\"";
